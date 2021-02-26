@@ -8,12 +8,12 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
-    private String empName;
+    private String emp_name;
     private Double salary;
 
-    public Employee(Integer id, String empName, Double salary) {
+    public Employee(Integer id, String emp_name, Double salary) {
         this.id = id;
-        this.empName = empName;
+        this.emp_name = emp_name;
         this.salary = salary;
     }
 
@@ -29,11 +29,11 @@ public class Employee {
     }
 
     public String getEmpName() {
-        return empName;
+        return emp_name;
     }
 
-    public void setEmpName(String empName) {
-        this.empName = empName;
+    public void setEmpName(String emp_name) {
+        this.emp_name = emp_name;
     }
 
     public Double getSalary() {
