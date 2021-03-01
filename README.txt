@@ -5,7 +5,7 @@ kế hoạch demo dockerfile
 - Các bước thực hiện:
 
  + Từ dockerfile_mysql build image db_mysql, run image lên để được container chứa mysql. Sau đó tạo bảng employees và insert một vài dữ liệu.
-	// Tạo Table: CREATE TABLE employees(id INT, empName VARCHAR(200), salary DOUBLE);
+	// Tạo Table: CREATE TABLE employees(id INT, emp_name VARCHAR(200), salary DOUBLE);
 	// Insert dữ liệu: INSERT INTO employees(id, emp_name, salary) VALUES (1, "employee1", 10000), (2, "employee2", 20000) ,(3, "employee3", 30000), (4, "employee4", 40000), (5, "employee5", 50000);
  
  + Từ dockerfile_environment_java build thành image environment_java, và run image để được container chạy app java.

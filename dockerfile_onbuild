@@ -1,3 +1,5 @@
 FROM environment_java
 ARG maintainer="Ducnv"
+ENV version="ver. 1.0"
 RUN echo $maintainer
+RUN echo $version
